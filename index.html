@@ -14,7 +14,7 @@
       <p>Cart({{ cart.length }})</p>
     </div>
 
-    <product :premium="premium" :cart="cart.length" @add-to-cart="updateCart" @del-from-cart="delFromCart"></product>
+    <product :premium="premium" @add-to-cart="updateCart" @del-from-cart="delFromCart"></product>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
